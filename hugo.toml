@@ -2,8 +2,7 @@ baseURL = 'https://banethero.github.io'
 languageCode = 'en-us'
 title = 'Ben & Janet Collection'
 defaultContentLanguage = "en"
-
-theme = ["github.com/nicokaiser/hugo-theme-gallery/v2"]
+theme = "github.com/nicokaiser/hugo-theme-gallery/v2"
 
 [params]
   defaultTheme = "dark"
