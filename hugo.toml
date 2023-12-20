@@ -2,6 +2,8 @@ baseURL = 'https://banethero.github.io'
 languageCode = 'en-us'
 title = 'Ben & Janet Collection'
 defaultContentLanguage = "en"
+disableKinds = ["taxonomy", "term", "sitemap", "RSS", "robotsTXT"]
+timeZone = "America/Chicago"
 theme = "github.com/nicokaiser/hugo-theme-gallery/v2"
 publishDir = "docs"
 
@@ -17,3 +19,11 @@ publishDir = "docs"
   [module.hugoVersion]
     extended = false
     min = "0.112.0"
+
+[imaging]
+  #resampleFilter = "CatmullRom"
+  #quality = 75
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    #includeFields = "ImageDescription"
