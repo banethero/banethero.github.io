@@ -1,7 +1,7 @@
 ---
 title: Our Memories
 linktitle: Home
-description: Welcome Friends! This is a site that's dedicated to sharing some of our personal memories with close family and friends. Please do not download or share without my consent. Thank you and enjoy!
+description: Welcome Friends! This is a site dedicated to sharing some of our personal memories with close family and friends. Please do not download or share any content without my permission. Thank you and enjoy!
 #lastmod: 2023-07-05
 #featured_image: martin-martz-wRuhOOaG-Z4-unsplash.jpg # default: first image in this directory
 #featured_image on the home page is used for OpenGraph cards, etc.
