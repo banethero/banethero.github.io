@@ -13,10 +13,7 @@ theme = ["github.com/nicokaiser/hugo-theme-gallery/v2"]
   home = ["HTML"]
   section = ["HTML"]
 
-[imaging]
-  resampleFilter = "CatmullRom"
-  quality = 75
-  [imaging.exif]
-    disableDate = false
-    disableLatLong = true
-    includeFields = "ImageDescription"
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.112.0"
