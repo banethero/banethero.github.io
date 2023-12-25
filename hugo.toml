@@ -21,9 +21,9 @@ enableRobotsTXT = true
     extended = false
     min = "0.121.1"
 
-#[imaging]
+[imaging]
   #resampleFilter = "CatmullRom"
-  #quality = 75
+  quality = 100
   #[imaging.exif]
     #disableDate = false
     #disableLatLong = true
