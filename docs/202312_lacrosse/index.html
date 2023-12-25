@@ -19,11 +19,20 @@
   
 
   
-  <link rel="stylesheet" href="/css/compiled/styles.min.82961b8e0d0df5aa87f8c5251745d30edf64fc1d2d13fe25fef1dcec2e8d7a34.css" />
+  <link rel="stylesheet" href="/css/main.min.a53aea67941685bcf9072890b6f68685eed2360e69dbb88706f4ca2806cccfb0.css" />
   
   <script src="/js/main.d8c8c880262b425179777e3236f08ddeaeac4887391b0074f783998f153708af.js" defer></script>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X1ZRN8D0BN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X1ZRN8D0BN');
+</script>
 </head>
-<body class="flex min-h-full flex-col bg-white text-neutral-900 antialiased dark:bg-black dark:text-neutral-100"><header class="w-full">
+<body class="flex min-h-full flex-col bg-background text-primary antialiased"><header class="w-full">
   <div class="mx-auto flex max-w-screen-3xl flex-wrap justify-between px-6" x-data="{ expanded: false }">
     <div class="flex h-16 w-full justify-between">
       
@@ -32,7 +41,7 @@
           
         
         
-          <a class="-ms-4 inline-flex items-center px-3 py-5 text-xl font-medium dark:text-neutral-100" href="/" title="Our Memories">
+          <a class="-ms-4 inline-flex items-center px-3 py-5 text-xl font-medium" href="/" title="Our Memories">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
             </svg>
@@ -41,7 +50,7 @@
       
 
 
-      <button @click="expanded = !expanded" type="button" class="group -me-4 ml-3 inline-flex items-center p-3 text-sm dark:text-neutral-100" title="Albums">
+      <button @click="expanded = !expanded" type="button" class="group -me-4 ml-3 inline-flex items-center p-3 text-s" title="Albums">
         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-show="!expanded">
           <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
         </svg>
@@ -51,10 +60,10 @@
       </button>
     </div>
 
-    <div x-cloak x-show="expanded" x-collapse class="w-full"><ul class="my-12 text-center text-xl font-medium text-neutral-500 dark:text-neutral-500">
+    <div x-cloak x-show="expanded" x-collapse class="w-full"><ul class="my-12 text-center text-xl font-medium text-secondary">
   
     <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-      <a class=" block py-2 transition-colors hover:text-black dark:hover:text-neutral-200" href="/" itemprop="url">
+      <a class=" block py-2 transition-colors hover:text-primary" href="/" itemprop="url">
         <span itemprop="name">Home</span>
       </a>
     </li>
@@ -63,7 +72,7 @@
         
         
           <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-            <a class="text-black dark:text-white block py-2 hover:text-black dark:hover:text-neutral-200" href="/202312_lacrosse/" itemprop="url">
+            <a class="text-primary block py-2 hover:text-primary" href="/202312_lacrosse/" itemprop="url">
               <span itemprop="name">2023.12 [La Crosse, WI]</span>
             </a>
           </li>
@@ -79,7 +88,7 @@
   <div class="mx-auto mb-16 mt-9 max-w-screen-lg px-6 text-center">
     <h1 class="text-3xl font-semibold md:text-4xl">2023.12 [La Crosse, WI]</h1>
     
-      <p class="mt-6 text-neutral-500 dark:text-neutral-400 md:text-lg">Who would&#39;ve thought Janet would have her all-time favorite magarita and we would have one of our best Midwest food experiences in a small town in Wisconsin? Love Child is a must try if you&#39;re in the area!</p>
+      <p class="mt-6 text-secondary md:text-lg">Who would&#39;ve thought Janet would have her all-time favorite magarita and we would have one of our best Midwest food experiences in a small town in Wisconsin? Love Child is a must try if you&#39;re in the area!</p>
     
   </div>
 
@@ -786,7 +795,7 @@
   </div>
 </div>
 
-    </main><footer class="mx-auto mb-10 mt-4 flex max-w-screen-3xl flex-none flex-wrap justify-center px-6 text-center text-sm text-neutral-600 dark:text-neutral-400">
+    </main><footer class="mx-auto mb-10 mt-4 flex max-w-screen-3xl flex-none flex-wrap justify-center px-6 text-center text-sm text-secondary">
   <span class="m-2"></span>
 
   

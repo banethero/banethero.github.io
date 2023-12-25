@@ -7,6 +7,7 @@ timeZone = "America/Chicago"
 theme = "github.com/nicokaiser/hugo-theme-gallery/v2"
 publishDir = "docs"
 enableRobotsTXT = true
+googleAnalytics = "G-X1ZRN8D0BN"
 
 [params]
   defaultTheme = "dark"
