@@ -11,7 +11,6 @@ googleAnalytics = "G-X1ZRN8D0BN"
 
 [params]
   defaultTheme = "dark"
-  private = true
 
 [outputs]
   page = ["HTML"]
