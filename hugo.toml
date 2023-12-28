@@ -24,7 +24,7 @@ googleAnalytics = "G-X1ZRN8D0BN"
 
 [imaging]
   #resampleFilter = "CatmullRom"
-  quality = 75
+  quality = 90
   #[imaging.exif]
     #disableDate = false
     #disableLatLong = true
