@@ -25,7 +25,8 @@ googleAnalytics = "G-X1ZRN8D0BN"
 [imaging]
   #resampleFilter = "CatmullRom"
   quality = 90
-  #[imaging.exif]
+  [imaging.exif]
+    AutoOrient = true
     #disableDate = false
     #disableLatLong = true
     #includeFields = "ImageDescription"
